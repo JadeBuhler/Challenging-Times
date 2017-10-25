@@ -1,4 +1,8 @@
-<h2>Pokemon</h2>
-<% @pokemon.each do |pokemon| %>
- <%= render partial: 'common/pokemon', object:pokemon %>
-<% end %>
+<div id="pokeList">
+    <h2>Pokemon</h2>
+    <% @pokemon.each do |pokemon| %>
+    <div class="pokemon">
+        <%= render partial: 'common/pokemon', object:pokemon %>
+    </div>
+    <% end %>
+</div>

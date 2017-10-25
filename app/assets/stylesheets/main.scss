@@ -1,0 +1,98 @@
+html, body, div, h1, h2,
+p, a, ul, li, header, nav {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing:border-box;
+}
+
+html {
+    background-color:rgb(130, 127, 131);
+}
+
+body {
+    width:70%;
+    padding:5%;
+    margin:0 auto;
+}
+
+a {
+    color:black;
+    text-decoration:none;
+}
+
+a:hover {
+    color:rgb(186, 186, 186);
+}
+
+h2 {
+    text-align:center;
+}
+
+#lizardLinks
+{
+    margin-left:30%;
+    padding-top:2%;
+}
+
+#lizardLinks a {
+    margin-left:2%;
+    margin-right:2%;
+}
+
+.lizard {
+    display:inline;
+}
+
+nav {
+    margin-bottom:4%;
+}
+
+nav ul {
+    width:40%;
+    margin:0 auto;
+    list-style-type: none;
+}
+
+nav ul li {
+    display:inline;
+    font-size:24px;
+}
+
+nav ul li a {
+    text-decoration:none;
+    margin-left:4%;
+    margin-right:4%;
+}
+
+#pokeList {
+    width:50%;
+    margin:0 auto;
+}
+
+.pokemon {
+    background-image: url('pokeball.png');
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 15px;
+}
+
+.pokemon p {
+    text-align:center;
+}
+
+.pokemon:nth-child(even)
+{
+    background-color:rgb(172, 172, 172);
+}
+
+.singlePoke {
+    width:30%;
+    margin:0 auto;
+    padding:3%;
+    border:dashed 3px #000;
+}
+
+.singlePoke p {
+    margin-bottom:2%;
+}
