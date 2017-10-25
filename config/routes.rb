@@ -8,4 +8,8 @@ Rails.application.routes.draw do
   get '/about_us', to: 'pages#about', as: 'about'
 
   get 'lizards/:id', to: 'pages#lizards', as: 'lizards', id: /\d+/
+
+  get '/pokemon', to: 'pokemons#pokemon', as: 'pokemon'
+
+  get '/pokemon/:id', to: 'pokemons#poke', as: 'poke', id: /\d+/
 end
